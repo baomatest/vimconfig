@@ -1,0 +1,38 @@
+# GETting from resource.
+#http://example.com
+#GET /path/to/resource?key=value
+
+# POSTing to an ElasticSearch service.
+#http://example.com/elasticsearch
+
+#// Specify optional headers.
+#Content-Type: application/json; charset=utf-8
+
+#POST /index/type?pretty
+#{
+    #"key": "a key",
+    #"value": "a value"
+#}
+
+# Submitting a form.
+http://localhost
+
+Pragma: no-cache
+Origin: http://localhost
+X-XSRF-TOKEN: eyJpdiI6IkNVcTNVb0J2YU03RnFIM0ErZEU4U1E9PSIsInZhbHVlIjoiWFVyVzl1NWNWc1dOOFwvVmE4UGFtSDVjaHZTekx2OEZKVzNtM1hkeUtYcFZNV2JlN2Qrczdta3BBbVFYOEVqNHQiLCJtYWMiOiIyM2RmNWZmNmU4MDJiNzA4Nzg3NmIxZjI4YzAzMDA2N2ZlZjA5ZDVlYzhiYjIxNTg0MWJhMTljMmI3YjUzOTg2In0=
+Accept-Encoding: gzip, deflate, br
+Accept-Language: vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Referer: http://localhost/admin/mblog
+Cookie: pma_lang=vi;pmaUser-1=%7B%22iv%22%3A%22BYhngdtlz%2BxFA%2BMtia939A%3D%3D%22%2C%22mac%22%3A%2272d17d9685ab96a0005a13fdb2c168750f6e19c6%22%2C%22payload%22%3A%22SPvpnm1Onh8uRcOQ638JOw%3D%3D%22%7D; XSRF-TOKEN=eyJpdiI6IkNVcTNVb0J2YU03RnFIM0ErZEU4U1E9PSIsInZhbHVlIjoiWFVyVzl1NWNWc1dOOFwvVmE4UGFtSDVjaHZTekx2OEZKVzNtM1hkeUtYcFZNV2JlN2Qrczdta3BBbVFYOEVqNHQiLCJtYWMiOiIyM2RmNWZmNmU4MDJiNzA4Nzg3NmIxZjI4YzAzMDA2N2ZlZjA5ZDVlYzhiYjIxNTg0MWJhMTljMmI3YjUzOTg2In0%3D; laravel_session=eyJpdiI6IktPSmJOTW1FY1JYc3JXT3VhelJvc1E9PSIsInZhbHVlIjoiZ2pUdEVlK2R4UG96UE5pN2lRbDFodm9OR09JcGNHN2VlOHNcL1I0OHNjZWRcL050clUyR2QzcDE2SXhOSEFzS0ZpIiwibWFjIjoiYWFkODY1Y2U4ODdjNjQxYjYyYmRkNDZmZjY2N2Q3MGI3MDAzNDA4ZWUwZmFhN2FiYzg4NjQyMWY2NTk0MmIzMyJ9
+Connection: keep-alive
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded
+
+POST /admin/mblog/create?active=on&name=mot&id=&url=mot&keyword=hai&description=ba&contain=%3Cp%3Edasda%3C%2Fp%3E%0D%0A&_method=post&_token=k9GHmbJqGlNFfKjpZU4jtYcg20cjf6HamCKjofBW
+
+#POST /admin/mblog/create
+#var1=value of var1&
+#var2=value of var2

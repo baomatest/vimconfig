@@ -1,0 +1,13 @@
+Host: http://localhost/
+Accept-Language: en
+Cookie: 'XSRF-TOKEN=eyJpdiI6IlV6aHE2M2g0UEsxR3RBM01KUk82cFE9PSIsInZhbHVlIjoienVwMUkwQWNuaUhxN1V4TmFtSmZWVFpHcDU2ZWV5aFVsaDhLbE8yM2tpTkdlcjVUZlJuYjZnWW92MHdyVDlHeiIsIm1hYyI6ImE3ODZlZGFkYjdmYTMyZTBjYWU3YWUzYTZlY2RiYjg2OTk1OTRiMjA3ZTk5OTU0MzMzMzhjMTdiOTc5MDdkMDIifQ%3D%3D;laravel_session=eyJpdiI6IjZCQ3pxSmx3aUpBaTdxdmxDU2dNdWc9PSIsInZhbHVlIjoib3FsOVV6NlFLeXlDaGxjeVdRbGRYdFNcL2QyOUMzYmF5cDJja2cyUVJIZllhWW9LcDNRRG55dm5cL1Z5SjVWY2hWIiwibWFjIjoiMjFmMGEwMDhiZmRhNWUzYjQwMzc2ZTVkNzRiZTJjNDhiMzczNTdkOTU1NjA3N2ZmYWQyMzA0YjM2NDVhMjA4ZiJ9'
+
+POST admin/mblog/create | cookies
+{
+    "name": "mothaiba123",
+    "url": "mot-hai-ba",
+    "contain": "mot hai ba",
+		"_token": "bOaKHfe7I8yMFYsTcz171jnRit2uXSee0RNaIxzQ"
+}
+#bar=!file(/tmp/my_file.txt)
+#baz=!content(sample content)
